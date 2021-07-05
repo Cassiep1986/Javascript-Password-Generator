@@ -103,7 +103,7 @@ function choice5() {
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+  passwordText.value = passwordResult;
 }
 
 // Add event listener to generate button
